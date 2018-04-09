@@ -1,6 +1,6 @@
 const discord = require("discord.js");
-const talkedRecently = new Set();
 const client = new discord.Client();
+const talkedRecently = new Set();
 
 function commandIs(str, msg){
     return msg.content.toLowerCase().startsWith("" + str)
@@ -23,12 +23,8 @@ client.on('message', message => {
         message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
     }
         talkedRecently.add(msg.author.id);
-	    
-        setTimeout(() => {
-		
-		
+        setTimeout(() => {	
           talkedRecently.delete(msg.author.id);
-		
         }, 60000);
     }
 
