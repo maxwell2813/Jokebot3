@@ -17,7 +17,7 @@ client.on('message', message => {
 	if(message.author.bot) return;
 	
     if(message.content.includes("gay", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***                                                                                                                                                                               https://imgur.com/gallery/f4jxP');
+        message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
     }
     if(message.content.includes("Gay", message)){
         message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***                                                                                                                                                                               https://imgur.com/gallery/f4jxP');
