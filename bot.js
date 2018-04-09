@@ -9,7 +9,6 @@ function commandIs(str, msg){
 
 client.on('ready', () => {
     console.log('Ready!');
-    client.user.setActivity('Shitposts', { type: 'WATCHING' });
 });
 
 client.on('message', message => {
