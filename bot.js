@@ -8,7 +8,8 @@ function commandIs(str, msg){
 }
 
 client.on('ready', () => {
-    console.log('The bot is online!');
+    console.log('Ready!');
+    client.user.setActivity('Shitposts', { type: 'WATCHING' });
 });
 
 client.on('message', message => {
