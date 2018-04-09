@@ -26,4 +26,5 @@ client.on('message', message => {
 })
 
 // Allows the bot to login
-client.login('NDMyNjU2MDQzMzExNDk3MjE2.Daweog.BNZ7hzvwwmpfHDLBIBc6fHHXxQM');
+
+client.login(process.env.BOT_TOKEN);
