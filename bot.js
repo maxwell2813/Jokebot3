@@ -52,6 +52,14 @@ client.on('message', message => {
     if(message.content.includes("overwatch", message)){
         message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
     }
+	
+    if(message.content.includes("OVERWATCH", message)){
+        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
+    }
+
+    if(message.content.includes("OverWatch", message)){
+        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
+    }
 })
 
 // Allows the bot to login
