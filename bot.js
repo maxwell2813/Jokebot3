@@ -46,11 +46,11 @@ client.on('message', message => {
     }
 
     if(message.content.includes("Overwatch", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL');
+        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
     }
 	
     if(message.content.includes("overwatch", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:');
+        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
     }
 })
 
