@@ -45,23 +45,6 @@ client.on('message', message => {
         message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
     }
 
-    if(message.content.includes("Overwatch", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
-    }
-	
-    if(message.content.includes("overwatch", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
-    }
-	
-    if(message.content.includes("OVERWATCH", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
-    }
-
-    if(message.content.includes("OverWatch", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY OVERWATCH? MORE LIKE OVERSHITE :LUL:***');
-    }
 })
-
-// Allows the bot to login
 
 client.login(process.env.BOT_TOKEN);
