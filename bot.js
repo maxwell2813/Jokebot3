@@ -41,10 +41,21 @@ client.on('message', message => {
         message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
     }
 	
-    if(message.content.includes("gaY", message)){
-        message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
+    if(message.content.includes("ping", message)){
+        message.channel.sendMessage('Pong!');
     }
-
+	
+    if(message.content.includes("stellaris", message)){
+        message.channel.sendMessage('***NIGGA I SMELL A GAY ASS POST FROM A GAY ASS COMPANY FROM A DEADASS PERSON*** \n \n https://imgur.com/PyaXvCI');
+    }
+	
+    if(message.content.includes("Stellaris", message)){
+        message.channel.sendMessage('***NIGGA I SMELL A GAY ASS POST FROM A GAY ASS COMPANY FROM A DEADASS PERSON*** \n \n https://imgur.com/PyaXvCI');
+    }
+		
+    if(message.content.includes("STELLARIS", message)){
+        message.channel.sendMessage('***NIGGA I SMELL A GAY ASS POST FROM A GAY ASS COMPANY FROM A DEADASS PERSON*** \n \n https://imgur.com/PyaXvCI');
+    }
 })
 
 client.login(process.env.BOT_TOKEN);
