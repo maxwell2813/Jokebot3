@@ -40,10 +40,11 @@ client.on('message', message => {
     if(message.content.includes("gAy", message)){
         message.channel.sendMessage('***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!*** \n \n https://imgur.com/gallery/f4jxP');
     }
-	
+	/*
     if(message.content.includes("ping", message)){
         message.channel.sendMessage('Pong!');
     }
+    */
 
 })
 
