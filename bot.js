@@ -5,7 +5,7 @@ function commandIs(str, msg){
     return msg.content.toLowerCase().startsWith("" + str)
 }
 
-function aGay () {
+function agay () {
 	var rand = ['***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***','***WHAT DID YOU JUST SAY?!***','***~~I NEED MORE IDEAS FOR REPLYS DAMN IT~~***','***TYPE OVERUSED GAY JOKE HERE***']
 	
 	return rand[Math.floor(Math.random()*rand.length)];
@@ -21,36 +21,37 @@ client.on('message', message => {
     if(message.author.bot) return;
 	
     if(message.content.includes("gay", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
     if(message.content.includes("Gay", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 
     if(message.content.includes("GAy", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 	
     if(message.content.includes("GAY", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 	
     if(message.content.includes("GaY", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 	
     if(message.content.includes("gaY", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 	
     if(message.content.includes("gAy", message)){
-        message.channel.sendMessage('' + aGay);
+        message.channel.sendMessage('' + agay);
     }
 	/*
     if(message.content.includes("ping", message)){
         message.channel.sendMessage('Pong!');
     }
     */
+
 
 })
 
