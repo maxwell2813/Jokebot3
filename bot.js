@@ -21,30 +21,30 @@ client.on('message', message => {
     if(message.author.bot) return;
 	
     if(message.content.includes("gay", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
     if(message.content.includes("Gay", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 
     if(message.content.includes("GAy", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 	
     if(message.content.includes("GAY", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 	
     if(message.content.includes("GaY", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 	
     if(message.content.includes("gaY", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 	
     if(message.content.includes("gAy", message)){
-        message.channel.sendMessage('' + agay);
+        message.channel.sendMessage('' + agay());
     }
 	/*
     if(message.content.includes("ping", message)){
