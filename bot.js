@@ -6,7 +6,7 @@ function commandIs(str, msg){
 }
 
 function agay () {
-	var rand = ['***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***','***WHAT DID YOU JUST SAY?!***','***~~I NEED MORE IDEAS FOR REPLYS DAMN IT~~***','***TYPE OVERUSED GAY JOKE HERE***']
+	var rand = ['***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***','***WHAT DID YOU JUST SAY?!***','***~~I NEED MORE IDEAS FOR REPLYS DAMN IT~~***','***TYPE OVERUSED GAY JOKE HERE***','*quit spamming this fucking command*']
 	
 	return rand[Math.floor(Math.random()*rand.length)];
 }
