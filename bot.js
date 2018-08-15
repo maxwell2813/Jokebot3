@@ -46,6 +46,10 @@ client.on('message', message => {
     if(message.content.includes("gAy", message)){
         message.channel.sendMessage('' + agay());
     }
+	
+    if(message.content.includes("Gamer", message)){
+        message.channel.sendMessage('Gamer');
+    }	
 	/*
     if(message.content.includes("ping", message)){
         message.channel.sendMessage('Pong!');
