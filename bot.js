@@ -52,8 +52,14 @@ client.on('message', message => {
         message.channel.sendMessage('Pong!');
     }
     */
-
-
+	
+    if(message.content.includes("overwatch", message)){
+        message.channel.sendMessage('***OVERWATCH? MORE LIKE OVERSHITE LMAO!!!***');
+    }
+	
+    if(message.content.includes("Overwatch", message)){
+        message.channel.sendMessage('***OVERWATCH? MORE LIKE OVERSHITE LMAO!!!***');
+    }
 })
 
 client.login(process.env.BOT_TOKEN);
