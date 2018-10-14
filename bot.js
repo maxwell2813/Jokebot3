@@ -7,7 +7,7 @@ function commandIs(str, msg){
 
 function agay () {
 	var rand = ['***DID SOMEONE JUST SAY GAY? LMAO YOU NIGGAS GAY!***','***WHAT DID YOU JUST SAY?!***','***~~I NEED MORE IDEAS FOR REPLYS DAMN IT~~***','***TYPE OVERUSED GAY JOKE HERE***','*quit spamming this fucking command*','ygaygsyagygygaygaygayagyagyagaygaygayagyagyagyagyagyagyaga','no u','Warning: User too gay for command to execute']
-	
+	var dest = ['***Warframe > Destiny fite me***', '**Warframes better**', '***Destinys a shit game lmao***']
 	return rand[Math.floor(Math.random()*rand.length)];
 }
 
@@ -60,6 +60,12 @@ client.on('message', message => {
     if(message.content.includes("Overwatch", message)){
         message.channel.sendMessage('***OVERWATCH? MORE LIKE OVERSHITE LMAO!!!***');
     }
+	if(message.content.includes("Destiny", message)){
+        message.channel.sendMessage('' + dest);
+    }
+	if(message.content.includes("destiny", message)){
+        message.channel.sendMessage('' + dest);
+    }	
 })
 
 client.login(process.env.BOT_TOKEN);
