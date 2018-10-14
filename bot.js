@@ -61,10 +61,10 @@ client.on('message', message => {
         message.channel.sendMessage('***OVERWATCH? MORE LIKE OVERSHITE LMAO!!!***');
     }
 	if(message.content.includes("Destiny", message)){
-        message.channel.sendMessage('' + dest);
+        message.channel.sendMessage('' + dest());
     }
 	if(message.content.includes("destiny", message)){
-        message.channel.sendMessage('' + dest);
+        message.channel.sendMessage('' + dest());
     }	
 })
 
