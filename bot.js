@@ -10,11 +10,6 @@ function agay () {
 	return rand[Math.floor(Math.random()*rand.length)];
 }
 
-function dest () {
-	var rand = ['***Warframe > Destiny fite me***', '**Warframes better**', '***Destinys a shit game lmao***']
-	return rand[Math.floor(Math.random()*rand.length)];
-}
-
 client.on('ready', () => {
     console.log('Ready!');
 });
@@ -65,10 +60,10 @@ client.on('message', message => {
         message.channel.sendMessage('***OVERWATCH? MORE LIKE OVERSHITE LMAO!!!***');
     }
 	if(message.content.includes("Destiny", message)){
-        message.channel.sendMessage('' + dest());
+        message.channel.sendMessage('***Warframe > Destiny fite me***';
     }
 	if(message.content.includes("destiny", message)){
-        message.channel.sendMessage('' + dest());
+        message.channel.sendMessage('***Warframe > Destiny fite me***');
     }	
 })
 
