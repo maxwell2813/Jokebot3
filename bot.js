@@ -10,8 +10,8 @@ function agay () {
 	return rand[Math.floor(Math.random()*rand.length)];
 }
 
-function agay () {
-	var dest = ['***Warframe > Destiny fite me***', '**Warframes better**', '***Destinys a shit game lmao***']
+function dest () {
+	var rand = ['***Warframe > Destiny fite me***', '**Warframes better**', '***Destinys a shit game lmao***']
 	return rand[Math.floor(Math.random()*rand.length)];
 }
 
